@@ -22,29 +22,14 @@ footer {
     Body Background
     =============== */
 body {
+    background: url(images/bg-pattern-top.svg) -18% 700% no-repeat,
+        url(images/bg-pattern-bottom.svg) 118% -700% no-repeat;
     background-color: hsl(185, 75%, 39%);
     overflow: hidden;
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#topCircle,
-#bottomCircle {
-    position: fixed;
-    z-index: -1;
-    
-}
-
-#topCircle {
-    top: -85%;
-    left: -18%;
-}
-
-#bottomCircle {
-    bottom: -85%;
-    right: -18%;
 }
 
 /*  ============
