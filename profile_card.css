@@ -23,10 +23,10 @@ footer {
     =============== */
 body {
      background: url(images/bg-pattern-top.svg) 
-                -300px -800px / 1300px 1300px 
+                -20vw -70vh / 70vw 130vh
                 no-repeat,
                 url(images/bg-pattern-bottom.svg) 
-                right -300px bottom -800px / 1300px 1300px 
+                right -20vw bottom -70vh / 70vw 130vh
                 no-repeat;
     background-color: hsl(185, 75%, 39%);
     overflow: hidden;
