@@ -23,10 +23,10 @@ footer {
     =============== */
 body {
      background: url(images/bg-pattern-top.svg) 
-                -20vw -70vh / 70vw 130vh
+                -25vw -75vh /  calc(40vw + 65vh) calc(40vw + 65vh)h
                 no-repeat,
                 url(images/bg-pattern-bottom.svg) 
-                right -20vw bottom -70vh / 70vw 130vh
+                right -25vw bottom -75vh /  calc(40vw + 65vh) calc(40vw + 65vh)
                 no-repeat;
     background-color: hsl(185, 75%, 39%);
     overflow: hidden;
