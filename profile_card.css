@@ -166,3 +166,19 @@ footer {
 /*  =============
     Media Queries
     =============   */
+@media (max-aspect-ratio: 1/1) {
+    body {
+        background: url(images/bg-pattern-top.svg) 
+                -70vw -50vh / calc(40vw + 65vh) calc(40vw + 65vh)
+                no-repeat,
+                url(images/bg-pattern-bottom.svg) 
+                right -70vw bottom -50vh / calc(40vw + 65vh) calc(40vw + 65vh)
+                no-repeat;
+        background-color: hsl(185, 75%, 39%);
+        overflow: hidden;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
